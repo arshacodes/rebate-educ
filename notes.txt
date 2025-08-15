@@ -1,0 +1,26 @@
+npm create vue@latest
+cd project
+npm install
+npm run build
+
+npm install tailwindcss @tailwindcss/vite
+vite.config.js
+style.css
+use style.css in index.html
+import '@/style.css' in main.js
+
+creating folders
+create layouts
+  AppLayout.cue
+  GuestLayout.vue
+  Header.vue
+  RightSidebar.vue
+  Sidebar.vue
+create views
+create guest in views
+  LoginView.vue
+  RegisterView.vue
+create authenticated in views
+  CommunitiesView.vue
+  FeedView.vue
+  
